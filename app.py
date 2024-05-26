@@ -12,8 +12,7 @@ app = Flask(__name__)
 app.config['SECRET_KEY'] = 'siapa-ini'
 #app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///flaskdb.db'
 # Databse configuration mysql                             Username:password@hostname/databasename
-# app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://username:password@localhost/database_name'
-app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://testing_owner:02RqwPQvNakr@ep-late-scene-a11z9gyz.ap-southeast-1.aws.neon.tech/testing?sslmode=require'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://username:password@localhost/database_name'
   
 SQLALCHEMY_TRACK_MODIFICATIONS = False
 SQLALCHEMY_ECHO = True
